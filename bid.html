@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Level Chat-Box UI</title>
+    <link rel="stylesheet" href="bidc.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Video container -->
+        <div class="video-container">
+            <video controls>
+                <source src="c:\Users\USER\Videos\Captures\TITANIC_SURVIVORS _PREDECTION.ipynb - Colaboratory - Personal - Microsoft​ Edge 2023-11-15 10-26-02.mp4" type="video/mp4">
+                <!-- Add more source elements for different video formats if needed -->
+                Your browser does not support the video tag.
+            </video>
+            <!-- Left arrow -->
+            <div class="arrow left-arrow">
+                &#x2190;
+            </div>
+            <!-- Right arrow -->
+            <div class="arrow right-arrow">
+                &#x2192;
+            </div>
+        </div>
+
+        <!-- Chat box -->
+        <div class="chat-box">
+            <!-- Client -->
+            <div class="client">
+                <img src="logo.png" alt="logo" />
+                <div class="client-info">
+                    <h2>Thanos</h2>
+                    <p>online</p>
+                </div>
+            </div>
+
+            <!-- Main chat section -->
+            <div class="chats">
+                <div class="client-chat">Hi!</div>
+                <div class="my-chat">Hi!</div>
+                <div class="client-chat">How can I help you?</div>
+                <div class="my-chat">How to make a purchase</div>
+                <div class="client-chat">Order now</div>
+            </div>
+
+            <!-- Input field section -->
+            <div class="chat-input">
+                <input type="text" placeholder="Enter Message" />
+                <button class="send-btn">
+                    <img src="send.png" alt="send-btn">
+                </button>
+            </div>
+        </div>
+
+        <!-- Bidding section -->
+        <div class="bidding-section">
+            <h2>Bidding Section</h2>
+            <div class="bid-amount">
+                <label for="bidAmount">Bid Amount:</label>
+                <input type="number" id="bidAmount" placeholder="Enter bid amount">
+            </div>
+            <button class="raise-bid-btn">Raise Bid</button>
+            <button class="place-bid-btn">Place Bid</button>
+            <button class="withdraw-bid-btn">Withdraw Bid</button>
+        </div>
+
+        <!-- Button -->
+        <div class="chat-btn">
+            <img src="Circle-icons-chat.svg.png" alt="chat box icon btn">
+        </div>
+    </div>
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
